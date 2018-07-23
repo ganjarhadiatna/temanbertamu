@@ -12,13 +12,13 @@
 		$(document).ready(function () {
 			//$('#header').load('header.html');
 			//$('#footer').load('footer.html');
-			$('#ctn-bottom').show();
+			/*$('#ctn-bottom').show();
 			$('#body').load('beranda.html');
 			$('#menu ul li').on('click', function () {
-				/*$('#menu ul li').each(function () {
+				$('#menu ul li').each(function () {
 					$(this).removeClass('active');
 				});
-				$(this).addClass('active');*/
+				$(this).addClass('active');
 				var tr = $(this).attr('key');
 				if (tr) {
 					$('#body').load(tr+'.html');
@@ -31,8 +31,7 @@
 				} else {
 					$('#ctn-bottom').hide();
 				}
-			});
-
+			});*/
 		});
 	</script>
 </head>
@@ -45,41 +44,59 @@
 			<div class="header-menu" id="menu">
 				<ul>
 					
-					<li key="beranda">
-						<div class="title">Beranda</div>
-						<div class="line active"></div>
-					</li>
-					<li key="tamu_keren">
-						<div class="title">Tamu Keren</div>
-						<div class="line"></div>
-					</li>
-					<li key="hak_kamu">
-						<div class="title">Hak Kamu</div>
-						<div class="line"></div>
-					</li>
-					<li key="menurut_islam">
-						<div class="title">Menurut Islam</div>
-						<div class="line"></div>
-					</li>
-					<li key="ilustrasi">
-						<div class="title">Ilustrasi</div>
-						<div class="line"></div>
-					</li>
-					<li key="jangan_ditiru">
-						<div class="title">Jangan Ditiru</div>
-						<div class="line"></div>
-					</li>
-					<li key="kasih_tahu">
-						<div class="title">Kasih Tahu</div>
-						<div class="line"></div>
-					</li>
+					<a href="index.html">
+						<li key="beranda">
+							<div class="title">Beranda</div>
+							<div class="line active"></div>
+						</li>
+					</a>
+					<a href="tamu_keren.html">
+						<li key="tamu_keren">
+							<div class="title">Tamu Keren</div>
+							<div class="line"></div>
+						</li>
+					</a>
+					<a href="hak_kamu.html">
+						<li key="hak_kamu">
+							<div class="title">Hak Kamu</div>
+							<div class="line"></div>
+						</li>
+					</a>
+					<a href="menurut_islam.html">
+						<li key="menurut_islam">
+							<div class="title">Menurut Islam</div>
+							<div class="line"></div>
+						</li>
+					</a>
+					<a href="ilustrasi.html">
+						<li key="ilustrasi">
+							<div class="title">Ilustrasi</div>
+							<div class="line"></div>
+						</li>
+					</a>
+					<a href="jangan_ditiru.html">
+						<li key="jangan_ditiru">
+							<div class="title">Jangan Ditiru</div>
+							<div class="line"></div>
+						</li>
+					</a>
+					<a href="kasih_tahu.html">
+						<li key="kasih_tahu">
+							<div class="title">Kasih Tahu</div>
+							<div class="line"></div>
+						</li>
+					</a>
 				</ul>
 			</div>
 		</div>
 	</div>
 
 	<!--body and content will display in here-->
-	<div id="body"></div>
+	<div id="body">
+		<div class="content">
+			<img src="img/1.jpg" class="image">
+		</div>
+	</div>
 
 	<div class="footer bg-image" style="background-image: url('img/footer.jpg');">
 		<span class="ctn-bottom" id="ctn-bottom">

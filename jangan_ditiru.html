@@ -1,3 +1,108 @@
-<div class="content">
-	<img src="img/6.png" class="image">
-</div>
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Teman Bertamu</title>
+	<link rel="stylesheet" type="text/css" href="css/app.css">
+	<link rel="stylesheet" type="text/css" href="css/header.css">
+	<link rel="stylesheet" type="text/css" href="css/body.css">
+	<link rel="stylesheet" type="text/css" href="css/footer.css">
+	<link rel="stylesheet" type="text/css" href="font/font.otf">
+	<script type="text/javascript" src="js/jquery.js"></script>
+	<script type="text/javascript">
+		$(document).ready(function () {
+			//$('#header').load('header.html');
+			//$('#footer').load('footer.html');
+			/*$('#ctn-bottom').show();
+			$('#body').load('beranda.html');
+			$('#menu ul li').on('click', function () {
+				$('#menu ul li').each(function () {
+					$(this).removeClass('active');
+				});
+				$(this).addClass('active');
+				var tr = $(this).attr('key');
+				if (tr) {
+					$('#body').load(tr+'.html');
+				} else {
+					$('#body').load('not_found.html');
+				}
+
+				if (tr == 'beranda') {
+					$('#ctn-bottom').show();
+				} else {
+					$('#ctn-bottom').hide();
+				}
+			});*/
+		});
+	</script>
+</head>
+<body>
+	<div class="header">
+		<div class="header-logo">
+			<img src="img/logo.jpg">
+		</div>
+		<div class="header-ctn">
+			<div class="header-menu" id="menu">
+				<ul>
+					
+					<a href="index.html">
+						<li key="beranda">
+							<div class="title">Beranda</div>
+							<div class="line active"></div>
+						</li>
+					</a>
+					<a href="tamu_keren.html">
+						<li key="tamu_keren">
+							<div class="title">Tamu Keren</div>
+							<div class="line"></div>
+						</li>
+					</a>
+					<a href="hak_kamu.html">
+						<li key="hak_kamu">
+							<div class="title">Hak Kamu</div>
+							<div class="line"></div>
+						</li>
+					</a>
+					<a href="menurut_islam.html">
+						<li key="menurut_islam">
+							<div class="title">Menurut Islam</div>
+							<div class="line"></div>
+						</li>
+					</a>
+					<a href="ilustrasi.html">
+						<li key="ilustrasi">
+							<div class="title">Ilustrasi</div>
+							<div class="line"></div>
+						</li>
+					</a>
+					<a href="jangan_ditiru.html">
+						<li key="jangan_ditiru">
+							<div class="title">Jangan Ditiru</div>
+							<div class="line"></div>
+						</li>
+					</a>
+					<a href="kasih_tahu.html">
+						<li key="kasih_tahu">
+							<div class="title">Kasih Tahu</div>
+							<div class="line"></div>
+						</li>
+					</a>
+				</ul>
+			</div>
+		</div>
+	</div>
+
+	<!--body and content will display in here-->
+	<div id="body">
+		<div class="content">
+			<img src="img/6.png" class="image">
+		</div>
+	</div>
+
+	<div class="footer bg-image" style="background-image: url('img/footer.jpg');"></div>
+
+	<div class="copy-right">
+		TEMANBERTAMU.COM
+	</div>
+
+</body>
+</html>
