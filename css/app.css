@@ -1,0 +1,22 @@
+@font-face {
+	font-family: 'MyFont';
+	src: url('../font/font.otf');
+}
+* {
+	padding: 0;
+	border: 0;
+	margin: 0;
+	font-family: 'Myfont';
+}
+html {
+	background-color: #fff;
+}
+.ctn {
+	color: #0b3b5f;
+}
+
+.bg-image {
+	background-size: 100%;
+	background-position: top;
+	background-repeat: no-repeat;
+}

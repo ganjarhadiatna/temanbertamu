@@ -1,0 +1,23 @@
+#body {
+	position: relative;
+	width: 1270px;
+	padding: 50px 0;
+	margin: auto;
+	background-color: #fff;
+}
+#body .content {
+	position: relative;
+	width: 100%;
+}
+#body .content img {
+	position: relative;
+	width: 100%;
+}
+.ctn-bottom {
+	position: absolute;
+	width: 350px;
+	bottom: 50px;
+	right: 0;
+	float: right;
+	display: none;
+}
